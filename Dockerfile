@@ -1,4 +1,5 @@
-FROM quay.io/jupyter/minimal-notebook:python-3.12
+# FROM quay.io/jupyter/minimal-notebook:python-3.12
+FROM quay.io/jupyter/scipy-notebook:python-3.12
 
 USER root
 COPY requirements.txt /tmp/requirements.txt
